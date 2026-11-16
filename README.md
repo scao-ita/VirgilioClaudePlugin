@@ -32,6 +32,29 @@ L'accesso a Virgilio non è libero: l'indirizzo email dell'utente deve essere **
 
 Se la connessione viene rifiutata o non compaiono risultati, la causa più probabile è che l'email non sia ancora stata abilitata.
 
+## Installazione
+
+In Claude Code:
+
+```
+/plugin install virgilio-os1 --marketplace scao-ita/VirgilioClaudePlugin
+```
+
+In alternativa, si può aggiungere solo il server MCP:
+
+```
+claude mcp add --transport http os1-virgilio https://os1.ai.scao.it/mcp/
+```
+
+## Dati e privacy
+
+Il plugin non contiene codice eseguibile: registra un server MCP remoto e una skill di istruzioni.
+
+- **Cosa viene inviato:** solo i parametri dei tool, cioè il testo delle ricerche (`search`), l'identificativo del documento da leggere (`fetch`) e gli URL degli screenshot da mostrare (`view_images`).
+- **A chi:** esclusivamente al server di SCAO Informatica `https://os1.ai.scao.it/mcp/`.
+- **Cosa non viene inviato:** né la conversazione completa, né i file caricati, né la memoria o la cronologia di Claude.
+- **Cosa viene restituito:** testi e immagini della documentazione di OS1, in sola lettura. Il plugin non modifica dati.
+
 ## Esempi di domande
 
 - "Come si configura OS1BoxFatture?"
@@ -44,6 +67,8 @@ Se la connessione viene rifiutata o non compaiono risultati, la causa più proba
 | File | Scopo |
 |---|---|
 | `.claude-plugin/plugin.json` | Manifest del plugin |
+| `.claude-plugin/marketplace.json` | Rende il repository installabile come marketplace |
+| `LICENSE` | Licenza MIT |
 | `.mcp.json` | Collega il server MCP `os1-virgilio` |
 | `skills/os1-docs/SKILL.md` | Guida all'uso della documentazione |
 
@@ -56,7 +81,6 @@ Se la connessione viene rifiutata o non compaiono risultati, la causa più proba
 ## Note
 
 - L'endpoint richiede lo slash finale (`/mcp/`); senza risponde con un redirect 307.
-- Il plugin non è ancora stato provato in un'installazione reale.
 
 ## Chi siamo
 
@@ -67,3 +91,7 @@ Se la connessione viene rifiutata o non compaiono risultati, la causa più proba
 SCAO Informatica: https://www.scao.it
 Repository del plugin: https://github.com/scao-ita/VirgilioClaudePlugin
 Per segnalazioni e suggerimenti sulla documentazione di OS1 ci si rivolge al proprio rivenditore di fiducia.
+
+## Licenza
+
+MIT, vedi il file `LICENSE`.

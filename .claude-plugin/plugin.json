@@ -1,6 +1,7 @@
 {
   "name": "virgilio-os1",
-  "version": "0.1.0",
+  "displayName": "Virgilio per OS1",
+  "version": "0.2.0",
   "description": "Accesso alla documentazione ufficiale di OS1, il gestionale ERP di Open Source Italia (manuale in linea, schede operative, OS1Box, CRM), tramite Virgilio, il server MCP di SCAO Informatica. L'accesso richiede l'autorizzazione dell'email tramite il proprio referente commerciale.",
   "keywords": ["os1", "erp", "gestionale", "ositalia", "scao", "documentazione", "mcp"],
   "author": {
@@ -8,5 +9,6 @@
     "url": "https://www.scao.it"
   },
   "homepage": "https://www.scao.it",
-  "repository": "https://github.com/scao-ita/VirgilioClaudePlugin"
+  "repository": "https://github.com/scao-ita/VirgilioClaudePlugin",
+  "license": "MIT"
 }

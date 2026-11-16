@@ -1,0 +1,15 @@
+{
+  "name": "scao-virgilio",
+  "description": "Plugin di SCAO Informatica per Claude: documentazione di OS1 tramite il server MCP Virgilio.",
+  "owner": {
+    "name": "SCAO Informatica",
+    "url": "https://www.scao.it"
+  },
+  "plugins": [
+    {
+      "name": "virgilio-os1",
+      "source": "./",
+      "description": "Documentazione ufficiale di OS1 (ERP Open Source Italia) tramite Virgilio, il server MCP di SCAO Informatica."
+    }
+  ]
+}
