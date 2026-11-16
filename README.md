@@ -65,5 +65,5 @@ Se la connessione viene rifiutata o non compaiono risultati, la causa più proba
 ## Contatti
 
 SCAO Informatica: https://www.scao.it
-Repository del plugin: https://github.com/ScaoDevTeam/VirgilioMCP
+Repository del plugin: https://github.com/scao-ita/VirgilioClaudePlugin
 Per segnalazioni e suggerimenti sulla documentazione di OS1 ci si rivolge al proprio rivenditore di fiducia.
