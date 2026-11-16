@@ -55,6 +55,8 @@ Il plugin non contiene codice eseguibile: registra un server MCP remoto e una sk
 - **Cosa non viene inviato:** né la conversazione completa, né i file caricati, né la memoria o la cronologia di Claude.
 - **Cosa viene restituito:** testi e immagini della documentazione di OS1, in sola lettura. Il plugin non modifica dati.
 
+Privacy policy di SCAO Informatica: https://www.iubenda.com/privacy-policy/80134226
+
 ## Esempi di domande
 
 - "Come si configura OS1BoxFatture?"

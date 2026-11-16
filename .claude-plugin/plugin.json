@@ -10,5 +10,7 @@
   },
   "homepage": "https://www.scao.it",
   "repository": "https://github.com/scao-ita/VirgilioClaudePlugin",
-  "license": "MIT"
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://www.iubenda.com/privacy-policy/80134226"
 }
