@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "os1-virgilio": {
+      "type": "http",
+      "url": "https://os1.ai.scao.it/mcp/"
+    }
+  }
+}
